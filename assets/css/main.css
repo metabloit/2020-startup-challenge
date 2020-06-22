@@ -1,0 +1,54 @@
+/* The page properties */
+html {
+    font-size: 15px;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Space adjusted for the top navigation bar */
+body {
+    padding-top: 3.7rem;
+    position: relative;
+    padding-bottom: 5rem;
+    min-height: 100%;
+}
+
+/* Mark the canvas borders */
+canvas {
+    border: 0.2rem solid rgb(100, 100, 100);
+}
+
+/* Set the social icons size and their colors */
+.social {
+    font-size: 25px;
+    color: #17a2b8;
+
+}
+
+.anchor {
+    color: #17a2b8;
+}
+
+.anchor:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* Place the footer at the bottom of the page */
+.footer {
+    margin-top: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    flex-shrink: 0;
+}
+
+/* Feature icons enclosed by a rounded square */
+.icon {
+    border-radius: 35%;
+}
+
+/* Spacing for the Meta game container */
+.game-container {
+    padding-bottom: 45px;
+}
